@@ -1,0 +1,27 @@
+.task_appear {
+  animation: appear .5s linear;
+  height: 80px !important;
+}
+
+.task_disappear {
+  animation: disappear .5s linear;
+  height: 80px !important;
+}
+
+@keyframes appear {
+	from {
+		transform: rotateX(-90deg);
+	}
+	to {
+		transform: rotateX(0deg);
+	}
+}
+
+@keyframes disappear {
+	from {
+		transform: rotateX(0deg);
+	}
+	to {
+		transform: rotateX(90deg);
+	}
+}

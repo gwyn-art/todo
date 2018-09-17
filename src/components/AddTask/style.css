@@ -1,0 +1,6 @@
+
+.add_task {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
